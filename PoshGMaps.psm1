@@ -6,7 +6,7 @@ $script:BaseURI = "https://maps.googleapis.com/maps/api/"
 #endregion variables used in Module Functions
 If($script:GGeoCodeApiKey -eq "YOUR_APIKEY" -or $script:GPlacesApiKey -eq "YOUR_APIKEY" -or $script:GDirectionsApiKey -eq "YOUR_APIKEY")
 {
-   Write-Host "Refer to the Google API documentation for creating API Keys needed for this module. Refere to these sites`n
+   Write-Information "Refer to the Google API documentation for creating API Keys needed for this module. Refere to these sites`n
 https://developers.google.com/places/web-service/intro `n
 https://developers.google.com/maps/documentation/directions/start `n
 https://developers.google.com/maps/documentation/geocoding/intro `n
