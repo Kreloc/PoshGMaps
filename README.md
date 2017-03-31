@@ -19,8 +19,8 @@ A PowerShell Module for Google Maps APIs
     
 # Create API Keys on Google
   # Create an API keys for the following Google APIs:
-  # https://developers.google.com/places/web-service/intro
-  # https://developers.google.com/maps/documentation/directions/start
-  # https://developers.google.com/maps/documentation/geocoding/intro
+  [Places](https://developers.google.com/places/web-service/intro)
+  [Directions](https://developers.google.com/maps/documentation/directions/start)
+  [Geocoding](https://developers.google.com/maps/documentation/geocoding/intro)
   
 # Set those API Keys in the PoshGMaps.psm1 file to the approriate variables.
